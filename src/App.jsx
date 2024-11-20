@@ -17,7 +17,7 @@ export default function App() {
   return (
     <div className="App">
       <h1>React multi carousel</h1>
-      <Carousel showDots={true} responsive={responsive}>
+      <Carousel showDots={false} responsive={responsive}>
         {product}
       </Carousel>
     </div>
